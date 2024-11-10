@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    background-color: red;
+}
+
+nav {
+    margin: 2px;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+#flagHeader {
+    width: 5vw;
+}
+
+/* MAIN */
+
+.titles {
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+
+/* Lieux mythiques */
+
+
+
+#titicaca {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+.mythImages {
+    width: 50%;
+}
+
+.placesTitles {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.mythTexts {
+    width: 30%;
+    margin: 20px;
+}
+
+#macchuPicchu {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+/* Culture */
+
+#cultureContainer {
+    display: flex;
+    margin: 50px;
+}
+
+.cultureFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.cultureFlex h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: green;
+    font-size: 30px;
+
+
+}
+
+.cultureImages {
+    width: 90%;
+}
+
+.cultureTexts {
+    width: 95%;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+#flagFooter {
+    width: 10vw;
+}
